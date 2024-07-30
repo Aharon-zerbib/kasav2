@@ -1,0 +1,157 @@
+@media (min-width: 1440px) {
+  html {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+}
+h1 {
+  margin-bottom: 0;
+}
+.gallery img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.gallery-container {
+  position: relative;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.lesTitre {
+  display: flex;
+  flex-direction: column;
+}
+.description .Tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+.Tags {
+  padding-bottom: 20px;
+}
+.Tags ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.Tags ul li {
+  display: inline-block;
+  justify-content: center;
+  background-color: #ff6060;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+.lesTitre h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #ff6060;
+}
+.lesTitre p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.host {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.host p {
+  text-align: right;
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.host img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.rating {
+  display: flex;
+  justify-content: end;
+  font-size: 24px;
+}
+.fas.fa-star {
+  color: #e3e3e3;
+}
+
+.fas.fa-star.filled {
+  color: #ff6060;
+}
+.Colaps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  align-items: baseline;
+}
+.container_collapse {
+  padding-left: 20px;
+}
+@media (min-width: 720px) {
+  .Colaps {
+    height: 80px;
+  }
+}
+@media (min-width: 375px) and (max-width: 720px) {
+  .Colaps {
+    flex-direction: column;
+  }
+  .container_collapse {
+    padding-left: 0px;
+  }
+  .gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+.counter {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.pourFooter {
+  padding-bottom: 150px;
+}
+footer {
+  /* metre quelle que chaususe mais je ne me rappelle plus c quoi */
+}

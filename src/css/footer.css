@@ -1,0 +1,15 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  gap: 25px;
+  margin-top: auto;
+  width: 100%;
+  padding: 60px 0 25px;
+}
+.footerH1,
+.PFooter {
+  color: rgb(253, 253, 253);
+}

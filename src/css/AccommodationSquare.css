@@ -1,0 +1,38 @@
+.accommodation-square {
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.accommodation-square img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.accommodation-square h3 {
+  margin: 10px;
+  font-size: 1.5em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.accommodation-square:hover {
+  transform: scale(1.01);
+}
+.container {
+  margin-bottom: 15px;
+}
+
+.accommodation-square {
+  position: relative;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 20px 0;
+}

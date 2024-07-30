@@ -1,0 +1,50 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+  height: 220px;
+  border-radius: 25px;
+}
+
+.banner__image {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.banner__overlay {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Noir avec opacité de 0.6 */
+  border-radius: 25px;
+}
+
+.banner__title {
+  font-family: Montserrat, sans-serif;
+  width: 84%;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 1px 1px 0 #000, -1px 1px 0 #000,
+    -1px -1px 0 #000, 1px -1px 0 #000, 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.apartment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 375px) and (max-width: 720px) {
+  .banner__title {
+    font-size: 25px;
+  }
+}

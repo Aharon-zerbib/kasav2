@@ -1,0 +1,52 @@
+/* Navigation.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 70px;
+}
+
+.navbar .logo {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ff5252;
+}
+
+.navbar .logo span {
+  color: #ff5252;
+}
+
+.navbar .links {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  gap: 35px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.navbar .links a:hover {
+  text-decoration: underline;
+}
+
+.navbar .profile {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+@media (min-width: 375px) and (max-width: 720px) {
+  .navbar {
+    padding: 50px 2px;
+  }
+  .navbar .logo a img {
+    width: 150px;
+  }
+}

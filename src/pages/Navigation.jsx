@@ -7,7 +7,7 @@ const Navigation = () => {
     <div className="navbar">
       <div className="logo">
         <Link to="/">
-          <img src="./dist/kasa_red.svg" alt="Kasa Logo" />
+          <img src="/public/kasa_red.svg" alt="Kasa Logo" />
         </Link>
       </div>
       <div className="links">

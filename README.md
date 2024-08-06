@@ -9,5 +9,4 @@ Currently, two official plugins are available:
 
 # Pour lancer le project
 
--cd kasa
 -npm run dev

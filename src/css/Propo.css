@@ -6,3 +6,11 @@
   margin: 0 auto;
   padding-bottom: 20px;
 }
+.divBas {
+  padding-top: 280px;
+}
+@media (min-width: 375px) and (max-width: 720px) {
+  .divBas {
+    padding-top: 0px;
+  }
+}

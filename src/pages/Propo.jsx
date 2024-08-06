@@ -42,7 +42,9 @@ const About = () => {
           content={section.content}
         />
       ))}
-      <Footer />
+      <div className="divBas">
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="banner">
       <div className="banner__overlay" style={{ opacity: 0.6 }}></div>
       <img
-        src="/public/images/banner_about.webp"
+        src="/images/banner_about.webp"
         alt="Banner"
         className="banner__image"
       />

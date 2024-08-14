@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import Navigation from "../pages/Navigation";
 import CollapsibleSection from "./CollapsibleSection";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import NotFound from "../pages/404";
 import "../css/Apartment.css";
 
 //Configuration de Composant
@@ -60,7 +61,7 @@ const Apartment = () => {
 
   if (!apartment) {
     //pas encore chargées
-    return <div>Loading...</div>;
+    return <NotFound />;
   }
 
   //Apelle des data pour les afficher sur norte pages
